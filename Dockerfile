@@ -40,7 +40,7 @@ RUN chmod +x /usr/local/bin/docker-entrypoint.sh
 # Persist SQLite database
 VOLUME ["/app/prisma"]
 
-EXPOSE 3000
+EXPOSE 3145
 
 ENTRYPOINT ["docker-entrypoint.sh"]
 CMD ["node", "server.js"]
